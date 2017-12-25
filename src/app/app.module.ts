@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule, JsonpModule } from '@angular/http';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { CoreModule } from './core';
@@ -21,8 +21,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    JsonpModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
     RouterModule.forRoot(ROUTES, { useHash: true }),
     BrowserAnimationsModule,
 

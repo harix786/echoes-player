@@ -13,10 +13,7 @@ $fa-font-path: '../fonts' !default;
 @import '~font-awesome/scss/font-awesome';
 
 // Themes
-@import 
-  './themes/halloween.theme',
-  './themes/arctic.theme',
-  './themes/bumblebee.theme';
+@import './themes/index.themes.scss';
 
 /* CSS VARS - COLORS */
 .btn:focus,

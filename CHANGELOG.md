@@ -1,3 +1,10 @@
+## v 3.9.3 (2017/12/24)
+* [UPDATE] - Echoes with Angular 5 (now using HttpClient) 
+* [UPDATE] - updated NgRx to use memoized selectors 
+* [UPDATE] - analytics indicates now type of search 
+* [UPDATE] - added icon for a playlist search result 
+* [FIX] - play icon didn't show in playlist search result 
+
 ## v 3.9.2 (2017/12/20)
 * [NEW] - gtag integration
 * [NEW] - youtube api and client keys, analytics key is attached in build time (rather than hard coded in ts, html files) 
